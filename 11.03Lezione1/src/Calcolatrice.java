@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Calcolatrice {
     /**
-     * @author Sergio Pugliese
+     * @author Sergio Pugliese -- 
      * @a variabile con input double da tastiera
      * @b variabile con input double da tastiera
      * @op variabile con input string da tastiera per selezionare l'operatore
