@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a48dba1f-4284-4066-9cae-fa7f6e79d49c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CicloWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/appunti/appunti.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11.03Lezione1/src/Calcolatrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../11.03Lezione1/src/Calcolatrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a48dba1f-4284-4066-9cae-fa7f6e79d49c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
