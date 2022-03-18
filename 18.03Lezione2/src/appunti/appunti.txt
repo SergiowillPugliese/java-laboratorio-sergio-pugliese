@@ -1,0 +1,34 @@
+ESERCIZIO CICLI:
+1) OBIETTIVO:
+    - implementare cicli commando due numeti per x volte,
+    tenendo traccia della somma di questi due numeri
+
+    - SOTTOPROBLEMA 1
+        -prendere due numeri in input di tipo a scelta.
+            - VARIABILI SOTTOPROBLEMA #1:
+                - primonumero (int)
+                - secondonumero (int)
+            - PSEUDO CODICE
+                - dichiaro la variabile primonumero
+                - dichiaro la variabile secondonumero
+                - chiedo all'utente di inserire primonumero
+                - chiedo all'utente di inserire secondonumero
+
+    - SOTTOPROBLEMA 2
+        - Sommare i due numeri
+            - VARIABILI SOTTOPROBLEMA2
+                - somma (int)
+            PSEUDO CODICE
+                - dichiaro la variabile somma inizializzata a zero (somma -> 0)
+                - sommo primonumero e secondonumero
+
+    - SOTTOPROBLEMA 3
+        - sommare x volte e tenere traccia della somma x volte
+            - VARIABILI SOTTOPROBLEMA 3
+                - numeroInterazioni (int) (se non hard-coded che vuol dire che forziamo noi il valore)
+            - PSEUDO CODICE
+                - dichiaro numeto iterazioni inizializzato a 0
+                - interare chiedendo in input x volte tenendo traccia della somma
+
+
+
