@@ -19,7 +19,7 @@ public class Registro {
     public String getNomiPersone(){
         String s = "";
         for (Persona p:persone) {
-            s+= p.getNome() + "\n";
+            s += p.getNome() + "\n";
         }
         return s;
     }
