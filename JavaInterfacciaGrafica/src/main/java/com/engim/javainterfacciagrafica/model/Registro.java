@@ -16,6 +16,14 @@ public class Registro {
         persone.add(p);
     }
 
+    public String getNomiPersone(){
+        String s = "";
+        for (Persona p:persone) {
+            s+= p.getNome() + "\n";
+        }
+        return s;
+    }
+
     public static Registro getInstance(){
         if (instance==null)
             instance = new Registro();
