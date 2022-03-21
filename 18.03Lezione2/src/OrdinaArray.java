@@ -15,8 +15,9 @@ public class OrdinaArray {
 
         //ciclo per analizzare l'array
         for (int i = 0; i < mioarray.length; i++) {
+            //tengo bloccato l'elemento da confrontare con i successivi
             for (int j = 0; j < mioarray.length; j++) {
-                //System.out.println(mioarray[j]);
+                //prendo gli elementi successivi
                 if (mioarray[i] < mioarray[j]) {
                     int temp = mioarray[i];
                     mioarray[i] = mioarray[j];
