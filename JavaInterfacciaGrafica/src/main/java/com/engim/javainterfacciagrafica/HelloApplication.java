@@ -1,5 +1,6 @@
 package com.engim.javainterfacciagrafica;
 
+import com.engim.javainterfacciagrafica.model.Registro;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
