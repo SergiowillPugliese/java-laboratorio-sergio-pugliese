@@ -1,0 +1,7 @@
+L'astrazione è uno dei paradigmi della oop.
+comprende due concetti:
+    -   classi astratte
+    -   interfacce
+
+Lo scopo è quello di nascondere i dettagli implementativi all'utente lasciando solo capire che cosa andrà a fare
+il mio programma e non come.
