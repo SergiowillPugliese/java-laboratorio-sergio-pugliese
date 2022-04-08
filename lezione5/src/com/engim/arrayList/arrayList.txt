@@ -1,0 +1,8 @@
+ARRAYLIST
+Gli array hanno un problema di staticità. La dimensione in caso di inserimento o cancellazione varia, soprattutto per la
+cancellazione. Per poter poi riadattare il contenuto dell'array al programma è un lavoraccio.
+
+Gli array list ovviano questi problemi. Se una struttura dati che contiene sempre elementi emogenei, ovvero dati dello
+stesso tipo ma con una maggiore dinamicità. E' il compilatore che
+riadatta le dimensioni dell'array list.
+
