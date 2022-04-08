@@ -1,0 +1,38 @@
+HashMap in Java è una raccolta basata su Map e consiste di coppie chiave-valore.
+Una HashMap è indicata da o. È possibile accedere a un elemento HashMap utilizzando una chiave,
+ovvero dobbiamo conoscere la chiave per accedere all'elemento HashMap.
+
+Una HashMap utilizza una tecnica chiamata 'Hashing'. Nell'hashing, una stringa più lunga viene convertita in una
+stringa più corta applicando un algoritmo o una 'funzione hash'. Una stringa viene convertita in una stringa
+più breve in quanto aiuta nella ricerca che è più veloce. Viene anche utilizzato per un'indicizzazione efficiente.
+
+------------------------------------------------------------------------------------------------------------------------
+
+Le hashmap sono una struttura dati che va a mappare il valore di una chiave (K) associando un determinato valore (V).
+es: fate finta di avere un mazzo di chiavi con i relativi colori di segnatura. Dove i colori di segnatori sono univoci.
+
+si basano ed implementa l'interfaccia map <K,V> ereditando la classe astratta Abstractmap <k, v>.
+
+il tipo della chiave e del valore vengono scelti dal programmatore e non necessariamente devono essere uguali. Posso
+dichiarare una chiave stringa e valori interi.
+
+come si istanzia:
+    1° modo
+        - Map<k, v> nomeMappa = new HashMap<>();
+    2° modo
+      - HashMap<K, V> nomeMappa = new HashMap<>();
+
+Iterazione sulle hashmap ---> foreach = for(T v : strutturaIterativa){}
+Le mappe hanno due valori possibili all'interno della quale posso iterare chiavi e/o valori
+    -chiavi
+        per iterare sulle chiavi utilizzo un metodo keySet() appartenente alle mappe. Questo metodo mi permetterà di
+        stampare ed allo stesso tempo ottenere i valori delle chiavi della mia mappa, con conseguente (possibile)
+        ottenimento dei valori associati alle chiavi:
+
+        for (String key : mappa.keySet()){
+        System.out.println(key + " " + mappa.get(key));
+        }
+    - esempio lamba-notation (cicla direrttamente sulle chiavi)
+        mappa.forEach((key, value) -> {System.out.println(key + " " + mappa.get(key);)})
+
+
