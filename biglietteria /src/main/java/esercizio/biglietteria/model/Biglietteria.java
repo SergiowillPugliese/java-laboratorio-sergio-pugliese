@@ -8,7 +8,15 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Biglietteria {
-    private Long idBiglietteria;
+    private int idBiglietteria;
     private String nomeBiglietteria;
     private String indirizzo;
+
+    public int getIdBiglietteria() {
+        return idBiglietteria;
+    }
+
+    public void setIdBiglietteria(int idBiglietteria) {
+        this.idBiglietteria = idBiglietteria;
+    }
 }

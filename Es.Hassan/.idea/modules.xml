@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Es.Hassan.iml" filepath="$PROJECT_DIR$/Es.Hassan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/esercizi-calcolatrice/esercizi-calcolatrice.iml" filepath="$PROJECT_DIR$/esercizi-calcolatrice/esercizi-calcolatrice.iml" />
+    </modules>
+  </component>
+</project>
