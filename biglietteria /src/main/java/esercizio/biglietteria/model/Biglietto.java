@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Biglietto {
-    private Long idBiglietto;
+    private int idBiglietto;
     private String dataEvento;
     private double costo;
     private String categoria;

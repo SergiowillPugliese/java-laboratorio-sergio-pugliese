@@ -2,7 +2,6 @@ package esercizio.biglietteria.controller;
 
 import esercizio.biglietteria.model.Biglietteria;
 import esercizio.biglietteria.model.Repository.BiglietteriaRepository;
-import esercizio.biglietteria.payload.BiglietteriaPayload;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

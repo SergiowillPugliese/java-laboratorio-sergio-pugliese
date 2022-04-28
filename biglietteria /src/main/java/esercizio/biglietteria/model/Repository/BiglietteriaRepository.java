@@ -2,7 +2,6 @@ package esercizio.biglietteria.model.Repository;
 
 import esercizio.biglietteria.constant.DBconfig;
 import esercizio.biglietteria.model.Biglietteria;
-import esercizio.biglietteria.payload.BiglietteriaPayload;
 
 import java.sql.*;
 import java.util.ArrayList;
